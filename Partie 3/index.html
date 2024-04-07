@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu</title>
+</head>
+<body>
+    <h3>Mon Jeu</h3>
+    <p>  Devinez le Nombre (entre 1 et 100) </p>
+    <div class="container">
+        <div class="test">
+            
+                <h4>Essayer :</h4>
+                <input type="number" id="userGuess" placeholder="saisir un nombre ..">
+          
+           
+            <button id="btn" onclick="checkGuess()" value="">Verification</button>
+        </div>
+        <div class="affichage">
+            <h3> feedback:</h3>
+            <p id="feedback"> </p>
+           
+            
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
